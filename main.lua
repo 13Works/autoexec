@@ -4,4 +4,10 @@ local scripts = {
     ["eazvy-hub.lua"] = true;
 }
 
-local repo = ""
+local repo = "https://raw.githubusercontent.com/13Works/autoexec/main/"
+
+for script_name, enabled in scripts do
+    if enabled then
+        loadstring(game:HttpGet(repo .. script_name))()
+    end
+end
