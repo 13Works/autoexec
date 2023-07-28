@@ -20,7 +20,7 @@ UserInputService.WindowFocusReleased:Connect(function()
 end)
 
 wait(LOAD_TIMER)
-if not UserInputService:IsWindowFocused() then
+if not iswindowactive() then
     setfpscap(MIN_FPS)
     render(not RENDER_ON_RELEASE and 0 or RENDER_ON_RELEASE)
 end
