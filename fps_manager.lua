@@ -1,4 +1,4 @@
-local MAX_FPS, MIN_FPS = 10, 1
+local MAX_FPS, MIN_FPS = 10, 0.8
 local RENDER_ON_RELEASE = false
 
 local LOAD_TIMER = 10
