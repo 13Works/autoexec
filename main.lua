@@ -1,6 +1,6 @@
 local scripts = {
-    ["fps_manager.lua"] = true;
-    ["prodigy-x.lua"] = true;
+    ["fps_manager.lua"] = false;
+    ["prodigy-x.lua"] = false;
     ["eazvy-hub.lua"] = false;
 }
 
