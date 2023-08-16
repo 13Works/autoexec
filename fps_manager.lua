@@ -1,5 +1,5 @@
 local MAX_FPS, MIN_FPS = 30, 10
-local RENDER_ON_RELEASE = false
+local RENDER_ON_RELEASE = true
 
 local LOAD_TIMER = 10
 local UserInputService = game:GetService("UserInputService")
