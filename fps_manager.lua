@@ -1,5 +1,5 @@
-local MAX_FPS, MIN_FPS = 30, 5
-local RENDER_ON_RELEASE = true
+local MAX_FPS, MIN_FPS = 10, 0.8
+local RENDER_ON_RELEASE = false
 
 local LOAD_TIMER = 10
 local UserInputService = game:GetService("UserInputService")
@@ -23,4 +23,6 @@ wait(LOAD_TIMER)
 if not iswindowactive() then
     setfpscap(MIN_FPS)
     render(not RENDER_ON_RELEASE and 0 or RENDER_ON_RELEASE)
+else
+    setfpscap(MAX_FPS)
 end
