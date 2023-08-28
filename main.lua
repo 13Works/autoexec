@@ -1,7 +1,7 @@
 local scripts = {
     ["fps_manager.lua"] = true;
-    ["prodigy-x.lua"] = true;
-    ["eazvy-hub.lua"] = false;
+    ["prodigy-x.lua"] = false;
+    ["eazvy-hub.lua"] = true;
 }
 
 local repo = "https://raw.githubusercontent.com/13Works/autoexec/main/"
